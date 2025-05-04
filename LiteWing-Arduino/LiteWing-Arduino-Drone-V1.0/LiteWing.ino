@@ -14,7 +14,7 @@ unsigned long last_loop_time = 0;
 float loop_time = 0.01; // Default 10ms
 
 //Variables to send telmetry data via ESP-NOW
-uint8_t receiverMacAddress[] = {0x78, 0x21, 0x84, 0x9F, 0xFD, 0x18}; //address of rcvr
+uint8_t receiverMacAddress[] = {0x08, 0xB6, 0x1F, 0x81, 0x20, 0xA4}; //address of rcvr
 esp_now_peer_info_t peerInfo;
 telemetry_data telemetryData;
 
