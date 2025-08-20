@@ -137,11 +137,8 @@ void loop() {
   // Sanity check on loop time
   if (loop_time > 0.1) loop_time = 0.01; // If time jump is unreasonable, use default
   
-  // Read and process sensor data
-  readMPUData();
-
-  // Apply Kalman filter
-  kalmanFilter();
+  // Read and update angles from MPU6050
+  updateAngles();
 
   // Calculate PID values
   calculateAnglePID();
