@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "D:/developEnvironment/esp/v4.4/esp-idf/components/bootloader/subproject",
+    "build_dir":          "E:/LiteWing/build/bootloader",
+    "config_file":        "E:/LiteWing/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4",
+    "target":             "esp32s3",
+    "rev":                "",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s3-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "D:/developEnvironment/esp/v4.4/esp-idf/components/efuse/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/esp32s3/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/esp_common/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/esp_hw_support/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/esp_system/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/freertos/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/hal/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/log/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/newlib/Kconfig;D:/developEnvironment/esp/v4.4/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "D:/developEnvironment/esp/v4.4/esp-idf/components/bootloader/Kconfig.projbuild;D:/developEnvironment/esp/v4.4/esp-idf/components/esp_rom/Kconfig.projbuild;D:/developEnvironment/esp/v4.4/esp-idf/components/esptool_py/Kconfig.projbuild;D:/developEnvironment/esp/v4.4/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "D:/developEnvironment/esp/v4.4/esp-idf/components/bootloader", "D:/developEnvironment/esp/v4.4/esp-idf/components/bootloader_support", "D:/developEnvironment/esp/v4.4/esp-idf/components/efuse", "D:/developEnvironment/esp/v4.4/esp-idf/components/esp32s3", "D:/developEnvironment/esp/v4.4/esp-idf/components/esp_common", "D:/developEnvironment/esp/v4.4/esp-idf/components/esp_hw_support", "D:/developEnvironment/esp/v4.4/esp-idf/components/esp_rom", "D:/developEnvironment/esp/v4.4/esp-idf/components/esp_system", "D:/developEnvironment/esp/v4.4/esp-idf/components/esptool_py", "D:/developEnvironment/esp/v4.4/esp-idf/components/freertos", "D:/developEnvironment/esp/v4.4/esp-idf/components/hal", "D:/developEnvironment/esp/v4.4/esp-idf/components/log", "D:/developEnvironment/esp/v4.4/esp-idf/components/bootloader/subproject/main", "D:/developEnvironment/esp/v4.4/esp-idf/components/bootloader/subproject/components/micro-ecc", "D:/developEnvironment/esp/v4.4/esp-idf/components/newlib", "D:/developEnvironment/esp/v4.4/esp-idf/components/partition_table", "D:/developEnvironment/esp/v4.4/esp-idf/components/soc", "D:/developEnvironment/esp/v4.4/esp-idf/components/spi_flash", "D:/developEnvironment/esp/v4.4/esp-idf/components/xtensa", "" ]
+}
